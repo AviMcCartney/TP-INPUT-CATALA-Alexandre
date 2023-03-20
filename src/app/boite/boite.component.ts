@@ -6,6 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./boite.component.css'],
 })
 export class BoiteComponent {
+  // @Input()
+  // tirelire1 : number = 1000;
+  // @Input()
+  // tirelire2 : number = 1000;
+  // @Input()
+  // tirelire3 : number = 1000;
+
+  // @Output()
+  // argentdepense: EventEmitter<number> = new EventEmitter<number>();
+  // procesSpendMoney(){
+  //   this.tirelire1.emit(this.numero)
+
   tirelire1: number = 0;
   tirelire2: number = 0;
   tirelire3: number = 0;
