@@ -1,0 +1,21 @@
+<div class="boite">
+  <div class="tirelire">
+    Tirelire 1 : {{ tirelire1 }}
+    <button (click)="utiliserTirelire(1)">
+      Utiliser les {{ tirelire1 }} Fr
+    </button>
+  </div>
+  <div class="tirelire">
+    Tirelire 2 : {{ tirelire2 }}
+    <button (click)="utiliserTirelire(2)">
+      Utiliser les {{ tirelire2 }} Fr
+    </button>
+  </div>
+  <div class="tirelire">
+    Tirelire 3 : {{ tirelire3 }}
+    <button (click)="utiliserTirelire(3)">
+      Utiliser les {{ tirelire3 }} Fr
+    </button>
+  </div>
+  <button class="ajouter" (click)="ajouter100Fr()">Ajouter 100 Fr</button>
+</div>
